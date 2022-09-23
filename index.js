@@ -4,11 +4,11 @@ const formInfo = document.getElementById("formInfo");
 const contactForm = document.getElementById("contactForm");
 const experiences = document.getElementsByClassName("experience");
 
-if (hasJob) {
-    showMessage("Currently Employed;")
-} else {
-    showMessage("Thanks for visiting and offering a job")
-}
+// if (hasJob) {
+//     showMessage("Currently Employed;")
+// } else {
+//     showMessage("Thanks for visiting and offering a job")
+// }
 
 function showMessage(message) {
     formInfo.innerHTML = "<p>" + message + "</p>";

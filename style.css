@@ -10,7 +10,7 @@
 h1, h2 {
     color: #00cccc;
     position: center;
-    padding: 2px
+    padding: 0px
 }
 
 .experience {
@@ -19,6 +19,13 @@ h1, h2 {
     padding: 4px;
     background-color: #fff;
     box-shadow: 3px, 3px, 3px, 3px;
+}
+
+.container {
+  justify-content: center;
+  width 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .experience .title {
@@ -31,7 +38,7 @@ h1, h2 {
 } */
 
 body{
-    height: 150vh;
+    height: 100vh;
     background: linear-gradient(
         135deg,
         #ffff,
