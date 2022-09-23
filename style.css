@@ -89,3 +89,8 @@ footer {
     display: grid;
     grid-area: 20px;
 }
+
+#formInfo {
+    font: italic;
+    font-size: 16px;
+}

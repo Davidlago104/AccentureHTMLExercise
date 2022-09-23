@@ -52,12 +52,12 @@
         </p>
     </div>
 </main>
-</body>
 <aside><br>
     <h2>
         Contact
     </h2>
-    <form>
+    <form id="contactForm">
+        <div id="formInfo"></div>
         <div>
             <label for="fullName">Full Name</label><br>
         </div>
@@ -70,7 +70,7 @@
         <div>
             <input id="subject" type="email" placeholder="Your Email please" />
         </div>
-
+        
         <div>
             <label id="reason" type="text">Reason for contact:</label><br>
             <select id="subject" placeholder="">
@@ -79,7 +79,7 @@
                 <option>Positive Reinforcement</option>
             </select>
         </div>
-
+        
         <div>
             <textarea id="message" placeholder="Write your message" rows=4></textarea>
         </div>
@@ -90,9 +90,11 @@
     </form>
 </aside>
 <br>
+</body>
 <footer>
     &copy; 2022 Copyright - David Lago
 </footer>
-
 </div>
+<script src="index.js"></script>
+
 </html>
